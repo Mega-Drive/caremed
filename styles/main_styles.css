@@ -977,6 +977,11 @@ section
 	margin-left: auto;
 	margin-right: auto;
 }
+.service_icon svg
+{
+	width: 61px;
+	height: 61px;
+}
 .service_icon img
 {
 	max-width: 100%;
@@ -985,18 +990,18 @@ section
 .svg rect,
 .svg polygon
 {
-	fill: #c4c4c5;
+	fill: #20d34a;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.service_icon:hover .svg path,
-.service_icon:hover .svg rect,
-.service_icon:hover .svg polygon
+.service:hover .svg path,
+.service:hover .svg rect,
+.service:hover .svg polygon
 {
-	fill: #eb4141;
+	fill: #FFFFFF;
 }
 .service_text
 {
