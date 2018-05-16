@@ -5,9 +5,10 @@
 [Table of Contents]
 
 1. Vars and Inits
-2. Init Menu
-2. Init Home Slider
-6. Init SVG
+2. Set Header
+3. Init Menu
+4. Init Home Slider
+5. Init SVG
 
 
 ******************************/
@@ -22,27 +23,52 @@ $(document).ready(function()
 
 	*/
 
+	var header = $('.header');
 	var hamb = $('.hamburger');
 	var hambActive = false;
 	var menuActive = false;
 
-	initHamburger();
+	setHeader();
+
+	$(window).on('resize', function()
+	{
+		setHeader();
+	});
+
+	$(document).on('scroll', function()
+	{
+		setHeader();
+	});
+
+	initMenu();
 	initHomeSlider();
 	initSvg();
 
 	/* 
 
-	2. Init Menu
+	2. Set Header
 
 	*/
+
+	function setHeader()
+	{
+		if($(window).scrollTop() > 100)
+		{
+			header.addClass('scrolled');
+		}
+		else
+		{
+			header.removeClass('scrolled');
+		}
+	}
 
 	/* 
 
-	5. Initialize Hamburger
+	3. Init Menu
 
 	*/
 
-	function initHamburger()
+	function initMenu()
 	{
 		if($('.hamburger').length)
 		{

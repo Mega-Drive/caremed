@@ -152,34 +152,31 @@
 	{
 		display: block;
 	}
-	.home_title h1
+	.features
 	{
-		font-size: 56px;
+		padding-left: 0;
+		padding-right: 0;
 	}
-	.boxes
+	.features .container
 	{
-		padding-top: 95px;
+		max-width: 720px;
 	}
-	.box_col
+	.features .container .row .col
 	{
-		margin-top: 0;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
-	.box_col:not(:last-child)
+	.feature
 	{
-		margin-bottom: 30px;
+		width: 100%;
 	}
-	.box
+	.feature_content
 	{
-		height: auto;
-		padding-bottom: 40px;
+		padding-bottom: 69px;
 	}
-	.about_image
+	.text_section_content
 	{
-		position: relative;
-		right: auto;
-		bottom: auto;
-		text-align: center;
-		margin-top: 55px;
+		margin-top: 65px;
 	}
 	.footer_column
 	{
@@ -244,18 +241,9 @@
 	{
 		margin-top: 9px;
 	}
-	.home_content_inner
+	.features .container
 	{
-		width: 100%;
-	}
-	.dept_text
-	{
-		margin-top: 15px;
-	}
-	.dept_button
-	{
-		position: relative;
-		margin-top: 20px;
+		max-width: 540px;
 	}
 	.cta_content h2
 	{
@@ -328,27 +316,6 @@
 		top: 20px;
 		right: 20px;
 	}
-	.home
-	{
-		height: 100vh;
-	}
-	.home_content
-	{
-		top: calc(50% + 34px);
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-	.home_title h1
-	{
-		font-size: 36px;
-	}
-	.home_text p
-	{
-		font-size: 13px;
-	}
 	.menu_container
 	{
 		width: 100vw;
@@ -357,6 +324,22 @@
 	.menu_item a
 	{
 		font-size: 20px;
+	}
+	.home
+	{
+		height: 230px;
+	}
+	.home_container
+	{
+		bottom: 47px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+	}
+	.breadcrumbs ul li, .breadcrumbs ul li a
+	{
+		font-size: 12px;
 	}
 	.section_title h2
 	{
@@ -373,13 +356,18 @@
 		padding-left: 29px;
 		padding-right: 34px;
 	}
-	.box
+	.box_emergency_text
 	{
-		padding-left: 25px;
+		font-size:13px;
 	}
-	.working_hours
+	.feature_content
 	{
+		padding-left: 30px;
 		padding-right: 30px;
+	}
+	.text_section_button
+	{
+		margin-top: 41px;
 	}
 	.cta_content h2
 	{
@@ -411,10 +399,7 @@
 
 @media only screen and (max-width: 479px)
 {
-	.home_title h1
-	{
-		font-size: 28px;
-	}
+	
 }
 
 /************

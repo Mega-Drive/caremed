@@ -63,14 +63,7 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.box
-	{
-		height: 313px;
-	}
-	.box_phone
-	{
-		font-size: 24px;
-	}
+	
 }
 
 /************
@@ -152,34 +145,28 @@
 	{
 		display: block;
 	}
-	.home_title h1
+	.input_name
 	{
-		font-size: 56px;
+		margin-bottom: 28px;
 	}
-	.boxes
+	.form_col
 	{
-		padding-top: 95px;
-	}
-	.box_col
-	{
-		margin-top: 0;
-	}
-	.box_col:not(:last-child)
-	{
-		margin-bottom: 30px;
+		margin-top: 95px;
 	}
 	.box
 	{
+		width: 322px;
 		height: auto;
 		padding-bottom: 40px;
+		padding-left: 30px;
 	}
-	.about_image
+	.tabs
 	{
-		position: relative;
-		right: auto;
-		bottom: auto;
-		text-align: center;
-		margin-top: 55px;
+		margin-top: 60px;
+	}
+	.milestone_col:not(:last-child)
+	{
+		margin-bottom: 60px;
 	}
 	.footer_column
 	{
@@ -244,22 +231,9 @@
 	{
 		margin-top: 9px;
 	}
-	.home_content_inner
+	.loader_col:not(:last-child)
 	{
-		width: 100%;
-	}
-	.dept_text
-	{
-		margin-top: 15px;
-	}
-	.dept_button
-	{
-		position: relative;
-		margin-top: 20px;
-	}
-	.cta_content h2
-	{
-		font-size: 36px;
+		margin-bottom: 94px;
 	}
 }
 
@@ -328,27 +302,6 @@
 		top: 20px;
 		right: 20px;
 	}
-	.home
-	{
-		height: 100vh;
-	}
-	.home_content
-	{
-		top: calc(50% + 34px);
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-	.home_title h1
-	{
-		font-size: 36px;
-	}
-	.home_text p
-	{
-		font-size: 13px;
-	}
 	.menu_container
 	{
 		width: 100vw;
@@ -357,6 +310,22 @@
 	.menu_item a
 	{
 		font-size: 20px;
+	}
+	.home
+	{
+		height: 230px;
+	}
+	.home_container
+	{
+		bottom: 47px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+	}
+	.breadcrumbs ul li, .breadcrumbs ul li a
+	{
+		font-size: 12px;
 	}
 	.section_title h2
 	{
@@ -377,13 +346,20 @@
 	{
 		padding-left: 25px;
 	}
-	.working_hours
+	.accordion
 	{
-		padding-right: 30px;
+		height: 48px;
+		font-size: 16px;
 	}
-	.cta_content h2
+	.accordion_panel p
 	{
-		font-size: 28px;
+		padding-top: 25px;
+	}
+	.tab
+	{
+		height: 48px;
+		line-height: 48px;
+		font-size: 16px;
 	}
 }
 
@@ -411,10 +387,7 @@
 
 @media only screen and (max-width: 479px)
 {
-	.home_title h1
-	{
-		font-size: 28px;
-	}
+	
 }
 
 /************

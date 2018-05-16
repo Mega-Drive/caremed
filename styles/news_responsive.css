@@ -67,10 +67,6 @@
 	{
 		height: 313px;
 	}
-	.box_phone
-	{
-		font-size: 24px;
-	}
 }
 
 /************
@@ -152,34 +148,14 @@
 	{
 		display: block;
 	}
-	.home_title h1
-	{
-		font-size: 56px;
-	}
-	.boxes
-	{
-		padding-top: 95px;
-	}
-	.box_col
-	{
-		margin-top: 0;
-	}
-	.box_col:not(:last-child)
-	{
-		margin-bottom: 30px;
-	}
 	.box
 	{
 		height: auto;
 		padding-bottom: 40px;
 	}
-	.about_image
+	.sidebar
 	{
-		position: relative;
-		right: auto;
-		bottom: auto;
-		text-align: center;
-		margin-top: 55px;
+		margin-top: 95px;
 	}
 	.footer_column
 	{
@@ -243,23 +219,6 @@
 	.logo
 	{
 		margin-top: 9px;
-	}
-	.home_content_inner
-	{
-		width: 100%;
-	}
-	.dept_text
-	{
-		margin-top: 15px;
-	}
-	.dept_button
-	{
-		position: relative;
-		margin-top: 20px;
-	}
-	.cta_content h2
-	{
-		font-size: 36px;
 	}
 }
 
@@ -328,27 +287,6 @@
 		top: 20px;
 		right: 20px;
 	}
-	.home
-	{
-		height: 100vh;
-	}
-	.home_content
-	{
-		top: calc(50% + 34px);
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-	.home_title h1
-	{
-		font-size: 36px;
-	}
-	.home_text p
-	{
-		font-size: 13px;
-	}
 	.menu_container
 	{
 		width: 100vw;
@@ -357,6 +295,22 @@
 	.menu_item a
 	{
 		font-size: 20px;
+	}
+	.home
+	{
+		height: 230px;
+	}
+	.home_container
+	{
+		bottom: 47px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+	}
+	.breadcrumbs ul li, .breadcrumbs ul li a
+	{
+		font-size: 12px;
 	}
 	.section_title h2
 	{
@@ -373,6 +327,17 @@
 		padding-left: 29px;
 		padding-right: 34px;
 	}
+	.news_body
+	{
+	    padding-top: 47px;
+	    padding-left: 30px;
+	    padding-bottom: 44px;
+	    padding-right: 30px;
+	}
+	.news_title a
+	{
+		font-size: 24px;
+	}
 	.box
 	{
 		padding-left: 25px;
@@ -380,10 +345,6 @@
 	.working_hours
 	{
 		padding-right: 30px;
-	}
-	.cta_content h2
-	{
-		font-size: 28px;
 	}
 }
 
@@ -411,10 +372,7 @@
 
 @media only screen and (max-width: 479px)
 {
-	.home_title h1
-	{
-		font-size: 28px;
-	}
+	
 }
 
 /************
